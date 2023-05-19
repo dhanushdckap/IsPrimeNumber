@@ -16,11 +16,11 @@ else if ($input > 1) {
     if ($isPrime) {
         echo "$input is a prime number";
     } else {
-        echo "$input is a not prime number";
+        echo "$input is a Composite number ";
     }
 }
 else {
-    echo "The number is not a prime number.";
+    echo "The number is Composite number .";
 }
     
 }
