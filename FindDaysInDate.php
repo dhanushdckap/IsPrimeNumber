@@ -9,8 +9,8 @@ function getDaysBetweenDates($startDate, $endDate) {
     return $daysBetween;
 }
 
-$startDate = '2003-10-30';
-$endDate = '2023-05-20';
+$startDate = (string)readline("Enter the Starting date in (YYYY-MM-DD) :");
+$endDate = (string)readline("Enter the ending date in (YYYY-MM-DD) :");
 
 $days = getDaysBetweenDates($startDate, $endDate);
 
